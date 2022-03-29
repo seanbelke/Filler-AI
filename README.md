@@ -11,3 +11,7 @@ At the start of the game, each player has a single tile that belongs to their "r
 Each player takes turns selecting a new color for their region.  The player can select any of the 6 colors other than its own color, or its opponent's color.  Upon selecting a new color, all tiles of that color that were adjacent to the player's region previously are now absorbed into that player's region, *and* the player's entire region will change to that color.  The game will display a score for each player as the game progresses.  Each player's score is the number of tiles in that player's region.
 
 Formally, the game ends when every tile on the grid is part of one of the two player's regions, but it's worth noting that once either player has a score of 29 or more, they are guaranteed to win the game because there are exactly 56 (28 times 2) tiles on the board, and there is no way for either player's region to get smaller as the game progresses.
+
+Here is an example of what the grid may look like in the middle of the game.  Player A's region is green, and Player B's region is blue.
+
+![Partial Game](images/filler-partial.jpg)
